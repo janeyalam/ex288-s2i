@@ -13,7 +13,7 @@ config_s2i
 
 cp -Rf /tmp/src/*.html ./
 
-DATE=$(date + %F)
+DATE=$(date +%F)
 
 echo "$DATE The war is for victory, and the hero lives foreve" > ./info.html
 
